@@ -33,7 +33,7 @@ jobs:
 
       - name: Build Application
         env:
-          GEMINI_API_KEY: ${{ secrets.AIzaSyDZA_9-OyzCUZB1Yyo0bCmRU26Rv9yi4d0 }}
+          GEMINI_API_KEY: ${{ secrets.AIzaSyC256KLAY_KNbkfr4UdQK3anlHpVwGqNxw }}
         run: npm run build
 
       - name: Setup GitHub Pages
